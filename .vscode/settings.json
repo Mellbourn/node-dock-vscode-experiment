@@ -14,5 +14,6 @@
         "statusBarItem.hoverBackground": "#05ae9c",
         "statusBar.foreground": "#15202b"
     },
-    "peacock.color": "#06e0c8"
+    "peacock.color": "#06e0c8",
+    "docker.defaultRegistryPath": "mellbourn"
 }
