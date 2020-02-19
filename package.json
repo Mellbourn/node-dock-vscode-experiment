@@ -1,0 +1,9 @@
+{
+  "name": "node-dock",
+  "version": "1.0.0",
+  "description": "testing docker",
+  "main": "index.js",
+  "author": "Klas Mellbourn <klas@mellbourn.net>",
+  "license": "MIT",
+  "private": true
+}
