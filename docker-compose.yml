@@ -1,4 +1,4 @@
-version: '2.1'
+version: "2.1"
 
 services:
   node-dock:
@@ -8,3 +8,8 @@ services:
       NODE_ENV: production
     ports:
       - 3000:3000
+    links:
+      - mongo
+
+  mongo:
+    image: "mongo"
