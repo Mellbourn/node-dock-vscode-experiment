@@ -1,11 +1,17 @@
 {
-    "configurations": [
-        {
-            "name": "Docker Node.js Launch and Attach",
-            "type": "docker",
-            "request": "launch",
-            "preLaunchTask": "docker-run: debug",
-            "platform": "node"
-        }
-    ]
+  "configurations": [
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "Docker: Attach to Node",
+      "remoteRoot": "/usr/src/app"
+    },
+    {
+      "name": "Docker Node.js Launch and Attach",
+      "type": "docker",
+      "request": "launch",
+      "preLaunchTask": "docker-run: debug",
+      "platform": "node"
+    }
+  ]
 }
