@@ -5,5 +5,8 @@
   "main": "index.js",
   "author": "Klas Mellbourn <klas@mellbourn.net>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  }
 }
